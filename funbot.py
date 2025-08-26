@@ -474,7 +474,7 @@ async def music(interaction: discord.Interaction, prompt: str):
     url = "https://api.acedata.cloud/suno/audios"
 
     headers = {
-        "authorization": "Bearer 721cd16b726d48458cc315905201c337"
+        "authorization": "Bearer "
     }
 
     payload = {
@@ -986,3 +986,4 @@ async def main() -> None:
 
 if __name__ == "__main__":
     asyncio.run(main())
+
