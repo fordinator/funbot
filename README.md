@@ -11,7 +11,7 @@ funbot provides an easy, engaging way to play simple LLM-powered games via _Disc
 ## Features
 
 ### Play chess against a genius:
-Full-fledged, grand master level chess engine via `pychess.py.`
+Full-fledged, grand master level chess engine via `pychess.py`.
 
 - Play chess via slash commands with a bot that responds verbally to your moves
 - Display images per turn with an updated board state
