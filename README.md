@@ -6,7 +6,7 @@
   Play fun games on Discord!
 </i></h3>
 
-funbot provides an easy, engaging way to play simple LLM-powered games via _Discord_ channels. It works with practically any LLM, remote or locally hosted. Based on [llmcord]https://github.com/jakobdylanc/llmcord by @jakobdylanc.
+funbot provides an easy, engaging way to play simple LLM-powered games via _Discord_ channels. It works with practically any LLM, remote or locally hosted. Based on [llmcord](https://github.com/jakobdylanc/llmcord) by @jakobdylanc.
 
 ## Features
 
