@@ -1,0 +1,59 @@
+# Discord settings:
+
+bot_token: 
+client_id: 
+status_message: Ping me for fun!
+
+max_text: 100000
+max_images: 5
+max_messages: 25
+
+use_plain_responses: false
+allow_dms: true
+
+permissions:
+  users:
+    admin_ids: []
+    allowed_ids: []
+    blocked_ids: []
+  roles:
+    allowed_ids: []
+    blocked_ids: []
+  channels:
+    allowed_ids: []
+    blocked_ids: []
+
+
+# LLM settings:
+
+providers:
+  anakin:
+    api_key: 
+  openai:
+    base_url: https://api.openai.com/v1
+    api_key:
+  x-ai:
+    base_url: https://api.x.ai/v1
+    api_key: 
+  mistral:
+    base_url: https://api.mistral.ai/v1
+    api_key:
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key: 
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_key: 
+  ollama:
+    base_url: http://localhost:11434/v1
+  lmstudio:
+    base_url: http://localhost:1234/v1
+  vllm:
+    base_url: http://localhost:8000/v1
+
+models:  
+  openai/gpt-4o-search-preview:
+    "temperature": 0.8
+
+system_prompt: |
+ Today's date is {date}. The current time is {time}.
