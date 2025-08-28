@@ -84,4 +84,14 @@ Full-fledged, grand master level chess engine via `pychess.py`.
 | **models** | Add the models you want to use in `<provider>/<model>: <parameters>` format (examples are included). When you run `/model` these models will show up as autocomplete suggestions.<br /><br />**Refer to each provider's documentation for supported parameters.**<br /><br />**The first model in your `models` list will be the default model at startup.**<br /><br />**Some vision models may need `:vision` added to the end of their name to enable image support.** |
 | **system_prompt** | Write anything you want to customize the bot's behavior!<br /><br />**Leave blank for no system prompt.**<br /><br />**You can use the `{date}` and `{time}` tags in your system prompt to insert the current date and time, based on your host computer's time zone.** |
 
+### Licensing and Usage
+
+Steal it, take credit for it, change it, improve it, sell it, it's yours.
+
+If you like this stupid thing, pop on up to the upper right there and hit a "Star" on this repo so it'll move up on Google and others can find it.
+
+If you want to chat with me, visit https://discord.com/invite/gAugxKBHQY.
+
+If you want to encourage other coding projects like this, donate to https://www.patreon.com/vexation1977
+
 
