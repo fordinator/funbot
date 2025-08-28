@@ -47,7 +47,7 @@ Full-fledged, grand master level chess engine via `pychess.py`.
 
 `/chess resign`: Give up in the face of funbot's overwhelming genius.
 
-`/trivia <topic>`: Start a three question trivia game about the topic specified. The LLM searches the web for your topic and generates the questions. Some questions may be obscure or formatted incorrectly, the 'bot will return an error if it doesn't work. The `bot will give you the correct answer after each guess and attempt to score it with "fuzzy logic" (to allow for misspellings and minor words). (NOTE: This is the only part of the bot that actually makes use of the LLM. It requires access to OpenAI's `gpt-4o-search-preview` model to function.)
+`/trivia <topic>`: Start a three question trivia game about the topic specified. The LLM searches the web for your topic and generates the questions. Some questions may be obscure or formatted incorrectly, the 'bot will return an error if it doesn't work. The 'bot will give you the correct answer after each guess and attempt to score it with "fuzzy logic" (to allow for misspellings and minor words). (NOTE: This is the only part of the bot that actually makes use of the LLM. It requires access to OpenAI's `gpt-4o-search-preview` model to function.)
 
 `/compose <song>`: Compose a 2 - 3 minute instrumental song in the style specified. Not working for now.
 
